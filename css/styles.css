@@ -8,7 +8,7 @@
  /* Text Colors */
  --text-dark: #000000;
  --text-light: #ffffff;
- --text-muted: #039797;
+ --text-muted: #033297;
 
 
  /* Background Colors */
@@ -87,6 +87,86 @@ body {
 }
 
 
+.back4text {
+  background: var(--background-white);
+ color: var(--text-dark);
+ margin-bottom: 30px;
+ padding: 40px 30px;
+}
+
+.back4text h1 {
+ font-size: 2.5rem;
+ font-weight: bold;
+ margin-bottom: 1px;
+  color: var(--text-light);
+}
+
+
+.back4text h5 {
+ font-size: 1.5rem;
+ font-weight: 300;
+ color: var(--text-muted);
+}
+
+.row-content {
+ padding: 50px 0;
+ border-bottom: 1px solid #e9ecef;
+}
+
+
+.row-content:last-child {
+ border-bottom: none;
+}
+
+.container {
+  display: flex;
+  align-items: center; /* vertically center */
+  gap: 10px;           /* space between image and text */
+}
+
+.class-card {
+ background-color: var(--background-white);
+ border-radius: 8px;
+ padding: 1.5rem;
+ margin-bottom: 1.5rem;
+ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ transition: all 0.3s ease;
+}
+
+
+.class-card h4 {
+ color: var(--jag-black);
+ font-weight: bold;
+ margin-bottom: 0.5rem;
+}
+
+
+.class-card h5 {
+ color: var(--text-dark);
+ font-size: 1.25rem;
+ margin-bottom: 0.75rem;
+}
+
+
+.class-card p {
+ color: var(--text-muted);
+ margin-bottom: 0;
+}
+
+
+.class-card a {
+ color: var(--o-black);
+ text-decoration: none;
+ font-weight: 600;
+}
+
+
+.class-card a:hover {
+ color: var(--jag-gold);
+ text-decoration: underline;
+}
+
+
 footer {
  background-color: var(--o-black);
  color: var(--text-light);
@@ -129,15 +209,26 @@ footer ul li {
   font-weight: bold;
 }
 
-.bold {
+.small {
+  font-size: 0.8rem;
   font-weight: bold;
-  text-shadow: 2px 2px 4px #fd00c686;
 }
 
- .center-block {
+.bold {
+  font-weight: bold;
+  font-size: 3.5rem;
+  text-shadow: 2px 2px 4px #033297;
+}
+
+
+  .center-block {
     display: block;
     margin-left: auto;
     margin-right: auto;
     max-width: 100%; 
     height: auto;
   }
+
+  .down {
+  font-size: 0.1rem;
+}
